@@ -1,0 +1,30 @@
+:root {
+  --header-gradiend: linear-gradient(to right, #000000 , #373435);
+  --main-header-text-color: #747474;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: var(--header-gradiend);
+  padding: 14px;
+}
+
+.header__right-side, .header__right-side {
+  display: flex;
+  align-items: center;
+}
+
+.header__ballprk-logo {
+  border: 1px solid #ffffff;
+  color: var(--main-header-text-color);
+  padding: 4px 12px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.button.logout {
+  text-transform: uppercase;
+  color: var(--main-header-text-color);
+  font-size: 14px;
+}
