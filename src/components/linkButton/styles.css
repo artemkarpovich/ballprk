@@ -1,0 +1,21 @@
+:root {
+  --button-gradiend: linear-gradient(to right, #385962 , #434647);
+  --button-text-color: #D2D2D2;
+}
+
+.link-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  background: var(--button-gradiend);
+  color: var(--button-text-color);
+  cursor: pointer;
+}
+
+.link-button__nav-up-icon {
+  position: absolute;
+  left: 18px;
+}
