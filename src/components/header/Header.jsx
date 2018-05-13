@@ -1,14 +1,15 @@
 import React from 'react';
 import FlatButton from './../flatButton';
+import { Link } from 'react-router-dom';
 
 import './styles.css';
 
 const Header = () => (
   <header className="header">
     <div className="header__left-side">
-      <div className="header__ballprk-logo">
+      <Link className="header__ballprk-logo" to="/">
         ballprk
-      </div>
+      </Link>
     </div>
     <div className="header__right-side">
       <FlatButton label="log out" />
