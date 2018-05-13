@@ -1,4 +1,5 @@
 import React from 'react';
+import FlatButton from './../flatButton';
 
 import './styles.css';
 
@@ -10,11 +11,11 @@ const Header = () => (
       </div>
     </div>
     <div className="header__right-side">
-      <div className="button logout">
-        log out
-      </div>
+      <FlatButton label="log out" />
     </div>
   </header>
 );
 
 export default Header;
+
+// TODO: Will be in module folder, needs connect to store in future.

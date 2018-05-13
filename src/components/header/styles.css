@@ -22,9 +22,3 @@
   text-transform: uppercase;
   letter-spacing: 8px;
 }
-
-.button.logout {
-  text-transform: uppercase;
-  color: var(--main-header-text-color);
-  font-size: 14px;
-}
