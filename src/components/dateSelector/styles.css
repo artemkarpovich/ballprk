@@ -1,0 +1,52 @@
+.date-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.date-selector__selectors {
+  display: flex;
+  width: 100%;
+}
+
+.date-selector__label {
+  padding: 0 0 4px 6px;
+  color: #525252;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.date-selector__day, .date-selector__year {
+  width: 25%;
+}
+
+.date-selector__month {
+  width: 50%;
+}
+
+.selector {
+  position: relative;
+  width: 100%;
+}
+
+.selector select {
+  outline: none;
+  font-size: 14px;
+  width: 100%;
+  color: #716969;
+  cursor: pointer;
+  padding: 10px 0 10px 15px;
+  border: 1px solid #3F3F3F;
+  background-color: #ffffff;
+  position: relative;
+  -o-border-image: initial;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.selector__icon {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
