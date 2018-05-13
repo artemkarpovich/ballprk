@@ -1,0 +1,67 @@
+:root {
+  --content-background-color: #FAFAFA;
+  --title-color: #444444;
+  --decription-color: #D2D2D2;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.wrapper {
+  flex: 1;
+  display: flex;
+}
+
+.content {
+  width: 55%;
+  background: var(--content-background-color);
+  min-width: 380px;
+}
+
+.splash-screen {
+  width: 45%;
+  background-image: url('./../../assets/images/girl-with-cap.jpg');
+  background-size: cover;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  justify-content: center;
+  min-width: 330px;
+}
+
+.form__title {
+  color: var(--title-color);
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+.form__description {
+  color: var(--decription-color);
+  max-width: 279px;
+  align-self: center;
+}
+
+.form__link-button, .form__body {
+  margin-top: 40px;
+}
+
+.form__body-select-field-group {
+  padding: 0 14px;
+  border-left: 3px solid #444444;
+}
+
+.form__body-additional-info {
+  padding: 0px 14px 0 17px;
+}
+
+.form__body-select-item, .form__body-additional-info, .from__body-date-selector, .from__body-gender-selector  {
+  margin-top: 8px;
+}
