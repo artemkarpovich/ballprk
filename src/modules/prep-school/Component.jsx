@@ -23,7 +23,7 @@ const Positions = [
   { id: 4, name: 'Punter' },
 ];
 
-const Component = ({ onChangeValue, sportId, positionId, highSchool, day, month, year, gender, customGender }) => (
+const Component = ({ sportId, positionId, highSchool, day, month, year, gender, customGender, onChangeValue, onShowState }) => (
   <div className="container">
     <Header />
     <div className="wrapper">
@@ -79,7 +79,7 @@ const Component = ({ onChangeValue, sportId, positionId, highSchool, day, month,
             </div>
           </form>
         </div>
-        <Footer />
+        <Footer onClick={onShowState} />
       </div>
       <div className="splash-screen" />
     </div>

@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { reducer as prepSchool } from './modules/layout-1';
+import { reducer as prepSchool } from './modules/prep-school';
 
 export default combineReducers({
   prepSchool,

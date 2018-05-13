@@ -12,6 +12,11 @@ class Container extends React.Component {
     actions.changeValue(key, value);
   }
 
+  handleShowState = () => {
+    const { prepSchool } = this.props;
+    alert(JSON.stringify(prepSchool));
+  }
+
   render() {
     const { prepSchool: { sportId, positionId, highSchool, day, month, year, gender, customGender } } = this.props;
 
@@ -26,6 +31,7 @@ class Container extends React.Component {
         gender={gender}
         customGender={customGender}
         onChangeValue={this.handleChangeValue}
+        onShowState={this.handleShowState}
       />
     );
   }

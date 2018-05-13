@@ -12,14 +12,16 @@
 }
 
 .wrapper {
-  flex: 1;
   display: flex;
+  flex: 1;
 }
 
 .content {
+  position: relative;
   width: 55%;
   background: var(--content-background-color);
-  min-width: 380px;
+  min-width: 400px;
+  padding-top: 40px;
 }
 
 .splash-screen {
@@ -29,11 +31,8 @@
 }
 
 .form {
-  display: flex;
-  flex-direction: column;
-  flex: 0.5;
-  justify-content: center;
-  min-width: 330px;
+  max-width: 380px;
+  margin: 0 auto;
 }
 
 .form__title {
@@ -46,7 +45,7 @@
 .form__description {
   color: var(--decription-color);
   max-width: 279px;
-  align-self: center;
+  margin: 0 auto;
 }
 
 .form__link-button, .form__body {
