@@ -1,0 +1,14 @@
+.raised-button {
+  width: 100%;
+  padding: 10px 0 10px 6px;
+  border: 1px solid #3F3F3F;
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #716969;
+  cursor: pointer;
+}
+
+.raised-button_active {
+  background: linear-gradient(to right, #385962 , #434647);
+  color: #D2D2D2;
+}
