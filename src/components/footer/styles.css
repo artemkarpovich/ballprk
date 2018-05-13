@@ -1,0 +1,15 @@
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 25px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+}
+
+.footer__flat-button {
+  font-size: 22px;
+  text-transform: capitalize;
+}
