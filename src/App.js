@@ -10,9 +10,9 @@ import './App.css';
 
 const Home = () => (
   <div className="home">
-    <ul>
+    <ul className="home__nav-links">
       <li><Link to="/prep-school">prep-school</Link></li>
-      <li><Link to="/layout-2">Topics</Link></li>
+      <li><Link to="/layout-2">coming soon</Link></li>
     </ul>
   </div>
 );
