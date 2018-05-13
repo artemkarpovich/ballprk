@@ -1,0 +1,53 @@
+.select-field {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.select-field__input {
+  width: 100%;
+}
+
+.select-field__input-button {
+  display: flex;
+  padding: 10px 0 10px 6px;
+  background: #ffffff;
+  border: 1px solid #3F3F3F;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.select-field__input-label {
+  display: flex;
+  padding: 0 0 4px 6px;
+  color: #525252;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.select-field__input-button-placeholder {
+  color: #C5C5C5;
+}
+
+.select-field__list {
+  background: #ffffff;
+  top: 61px;
+  position: absolute;
+  width: 100%;
+  list-style-type: none;
+  border: 1px solid #3F3F3F;
+  border-radius: 0 0 4px 4px;
+  z-index: 99999;
+}
+
+.select-field__list-item {
+  display: flex;
+  padding: 10px 0 10px 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.select-field__list-item:hover {
+  background: linear-gradient(to right, #385962 , #434647);
+  color: #D2D2D2;
+}
